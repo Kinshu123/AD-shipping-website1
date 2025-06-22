@@ -1,0 +1,230 @@
+.logoContainer {
+  display: inline-block;
+}
+
+.animated {
+  animation: logoEntrance 1.5s ease-out;
+}
+
+/* Logo entrance animation */
+@keyframes logoEntrance {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Background circle subtle pulse */
+.logoBackground {
+  animation: backgroundPulse 4s ease-in-out infinite;
+}
+
+@keyframes backgroundPulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.02);
+    opacity: 0.95;
+  }
+}
+
+/* Wave animations */
+.wave1 {
+  animation: waveMotion1 3s ease-in-out infinite;
+  transform-origin: center;
+}
+
+.wave2 {
+  animation: waveMotion2 3s ease-in-out infinite 0.5s;
+  transform-origin: center;
+}
+
+@keyframes waveMotion1 {
+  0%, 100% {
+    transform: translateY(0) scaleY(1);
+  }
+  50% {
+    transform: translateY(-1px) scaleY(1.1);
+  }
+}
+
+@keyframes waveMotion2 {
+  0%, 100% {
+    transform: translateY(0) scaleY(1);
+  }
+  50% {
+    transform: translateY(1px) scaleY(0.9);
+  }
+}
+
+/* Ship hull gentle floating */
+.shipHull {
+  animation: shipFloat 4s ease-in-out infinite;
+  transform-origin: center bottom;
+}
+
+@keyframes shipFloat {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-0.5px) rotate(0.5deg);
+  }
+  75% {
+    transform: translateY(0.5px) rotate(-0.5deg);
+  }
+}
+
+/* Ship structure subtle movement */
+.shipStructure {
+  animation: structureFloat 4s ease-in-out infinite 0.2s;
+  transform-origin: center bottom;
+}
+
+.shipBridge {
+  animation: structureFloat 4s ease-in-out infinite 0.4s;
+  transform-origin: center bottom;
+}
+
+@keyframes structureFloat {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-0.3px);
+  }
+}
+
+/* Window lighting effect */
+.window {
+  animation: windowGlow 2s ease-in-out infinite;
+}
+
+@keyframes windowGlow {
+  0%, 100% {
+    opacity: 1;
+    filter: brightness(1);
+  }
+  50% {
+    opacity: 0.7;
+    filter: brightness(1.3);
+  }
+}
+
+/* Mast gentle sway */
+.mast {
+  animation: mastSway 6s ease-in-out infinite;
+  transform-origin: bottom center;
+}
+
+@keyframes mastSway {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+
+/* Beacon blinking */
+.beacon {
+  animation: beaconBlink 1.5s ease-in-out infinite;
+}
+
+@keyframes beaconBlink {
+  0%, 70%, 100% {
+    opacity: 1;
+    filter: brightness(1);
+  }
+  85% {
+    opacity: 0.3;
+    filter: brightness(2);
+  }
+}
+
+/* Anchor subtle movement */
+.anchor {
+  animation: anchorSway 5s ease-in-out infinite;
+  transform-origin: center;
+}
+
+@keyframes anchorSway {
+  0%, 100% {
+    transform: translate(42px, 28px) rotate(0deg);
+  }
+  50% {
+    transform: translate(42px, 28px) rotate(2deg);
+  }
+}
+
+/* Text animations */
+.companyName {
+  animation: textFadeIn 2s ease-out 0.5s both;
+}
+
+.servicesText {
+  animation: textFadeIn 2s ease-out 1s both;
+}
+
+@keyframes textFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Decorative line draw animation */
+.decorativeLine {
+  stroke-dasharray: 120;
+  stroke-dashoffset: 120;
+  animation: lineDraw 2s ease-out 1.5s both;
+}
+
+@keyframes lineDraw {
+  0% {
+    stroke-dashoffset: 120;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Hover effects */
+.logoContainer:hover .animated {
+  animation-play-state: paused;
+}
+
+.logoContainer:hover .beacon {
+  animation-duration: 0.5s;
+}
+
+.logoContainer:hover .window {
+  animation-duration: 1s;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .logoContainer {
+    transform: scale(0.8);
+    transform-origin: left center;
+  }
+}
+
+@media (max-width: 480px) {
+  .logoContainer {
+    transform: scale(0.7);
+  }
+}

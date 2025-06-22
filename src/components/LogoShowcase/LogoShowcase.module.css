@@ -1,0 +1,156 @@
+.showcase {
+  padding: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.controls {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.section {
+  margin-bottom: 32px;
+}
+
+.variantCard,
+.sizeCard,
+.usageCard,
+.techCard {
+  height: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.variantCard:hover,
+.sizeCard:hover,
+.usageCard:hover,
+.techCard:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.navbarExample {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.mockNavbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  background: #ffffff;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.mockMenu {
+  display: flex;
+  gap: 24px;
+}
+
+.mockMenu span {
+  color: #64748b;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.mockMenu span:hover {
+  color: #3b82f6;
+}
+
+.footerExample {
+  background: #1e293b;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.mockFooter {
+  padding: 24px;
+  text-align: center;
+  background: #1e293b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.featureList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.featureList li {
+  padding: 8px 0;
+  color: #475569;
+  font-size: 14px;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.featureList li:last-child {
+  border-bottom: none;
+}
+
+.codeExample {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 16px;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 12px;
+  line-height: 1.6;
+  overflow-x: auto;
+}
+
+.codeExample .ant-typography {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .showcase {
+    padding: 16px;
+  }
+  
+  .mockNavbar {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+  
+  .mockMenu {
+    justify-content: center;
+  }
+  
+  .codeExample {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mockMenu {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  
+  .mockMenu span {
+    font-size: 13px;
+  }
+}
