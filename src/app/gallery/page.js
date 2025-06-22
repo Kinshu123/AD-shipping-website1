@@ -6,13 +6,11 @@ import styles from './page.module.css';
 const GalleryPage = () => {
   const images = [
     'IMG_0291.JPG',
-    'IMG_0292.JPG',
     'IMG_0309.JPG',
     'IMG_0574.JPG',
     'IMG_0577.JPG',
     'IMG_4540.JPG',
     'IMG_5732.JPG',
-    'IMG_5733.JPG',
     'IMG_5734.JPG',
     'IMG_5735.JPG',
     '2d919283-f8f9-4057-9493-bcfc2d68a8e1.JPG',

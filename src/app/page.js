@@ -6,6 +6,7 @@ import Image from 'next/image';
 import HeroSection from '../components/HeroSection';
 import ServiceCard from '../components/ServiceCard';
 import TeamSection from '../components/TeamSection';
+import ClientsSection from '../components/ClientsSection';
 import servicesData from '../utils/servicesData';
 import styles from './page.module.css';
 
@@ -112,6 +113,9 @@ export default function Home() {
 
       {/* Team Section */}
       <TeamSection />
+
+      {/* Clients Section */}
+      <ClientsSection />
 
       {/* CTA Section */}
       <section className={styles.ctaSection}>
