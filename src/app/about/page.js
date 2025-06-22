@@ -104,13 +104,6 @@ export default function AboutPage() {
                 • Organize regular training programs for our staff to upgrade and improve their skills.<br />
                 • Teamwork & clear communication.
               </Paragraph>
-              <Paragraph className={styles.mvvText}>
-                <strong>Excellence:</strong> Striving for the highest standards in all our services.<br/>
-                <strong>Safety:</strong> Prioritizing the well-being of our team and clients.<br/>
-                <strong>Integrity:</strong> Operating with honesty and transparency.<br/>
-                <strong>Innovation:</strong> Embracing new technologies and approaches.<br/>
-                <strong>Sustainability:</strong> Minimizing our environmental impact.
-              </Paragraph>
             </Card>
           </Col>
         </Row>
