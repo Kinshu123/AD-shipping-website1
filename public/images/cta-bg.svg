@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="600" viewBox="0 0 1920 600">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#003366" />
+      <stop offset="100%" stop-color="#001529" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Base background -->
+  <rect width="1920" height="600" fill="url(#bg-gradient)" />
+  
+  <!-- Abstract wave patterns -->
+  <path d="M0,150 C400,100 800,200 1200,100 C1600,0 2000,100 2400,50 L2400,600 L0,600 Z" 
+        fill="#004080" opacity="0.3" />
+  
+  <path d="M0,250 C500,200 1000,300 1500,200 C2000,100 2500,200 3000,150 L3000,600 L0,600 Z" 
+        fill="#0066cc" opacity="0.2" />
+  
+  <!-- Subtle dots pattern -->
+  <g fill="#ffffff" opacity="0.05">
+    <circle cx="100" cy="100" r="3" />
+    <circle cx="300" cy="200" r="2" />
+    <circle cx="500" cy="150" r="4" />
+    <circle cx="700" cy="300" r="3" />
+    <circle cx="900" cy="250" r="2" />
+    <circle cx="1100" cy="100" r="3" />
+    <circle cx="1300" cy="200" r="4" />
+    <circle cx="1500" cy="150" r="2" />
+    <circle cx="1700" cy="300" r="3" />
+    <circle cx="1900" cy="250" r="4" />
+    <circle cx="200" cy="350" r="3" />
+    <circle cx="400" cy="400" r="2" />
+    <circle cx="600" cy="450" r="4" />
+    <circle cx="800" cy="500" r="3" />
+    <circle cx="1000" cy="550" r="2" />
+    <circle cx="1200" cy="350" r="3" />
+    <circle cx="1400" cy="400" r="4" />
+    <circle cx="1600" cy="450" r="2" />
+    <circle cx="1800" cy="500" r="3" />
+  </g>
+  
+  <!-- Ship silhouette -->
+  <path d="M1700,400 L1800,400 L1850,380 L1900,380 L1900,400 L1950,400 L1950,420 L1650,420 L1650,400 Z" 
+        fill="#ffffff" opacity="0.1" />
+  
+  <path d="M100,450 L200,450 L250,430 L300,430 L300,450 L350,450 L350,470 L50,470 L50,450 Z" 
+        fill="#ffffff" opacity="0.1" />
+</svg>

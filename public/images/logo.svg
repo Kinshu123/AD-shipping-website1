@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="50" viewBox="0 0 180 50">
+  <!-- Ship Icon -->
+  <path d="M25,35 L5,35 L5,25 L10,15 L25,15 L25,35 Z" fill="#1890ff" />
+  <path d="M25,15 L40,15 L45,25 L45,35 L25,35 L25,15 Z" fill="#096dd9" />
+  <path d="M25,10 L25,40" stroke="#ffffff" stroke-width="2" />
+  <path d="M15,35 L15,40" stroke="#ffffff" stroke-width="2" />
+  <path d="M35,35 L35,40" stroke="#ffffff" stroke-width="2" />
+  <path d="M5,25 L45,25" stroke="#ffffff" stroke-width="1" stroke-dasharray="2,1" />
+  
+  <!-- Text -->
+  <text x="55" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#001529">AD SHIPPING</text>
+  <text x="55" y="38" font-family="Arial, sans-serif" font-size="12" fill="#1890ff">SERVICES</text>
+</svg>

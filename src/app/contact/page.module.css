@@ -1,0 +1,289 @@
+.container {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.section {
+  padding: 80px 10%;
+  width: 100%;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.sectionTitle {
+  font-size: 2.5rem !important;
+  margin-bottom: 16px !important;
+  position: relative;
+  display: inline-block;
+}
+
+.sectionTitle::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background-color: #1890ff;
+}
+
+.sectionDescription {
+  font-size: 18px;
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Map Styles */
+.mapContainer {
+  height: 100%;
+  min-height: 400px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.mapPlaceholder {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  background-color: #f0f2f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.mapImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Contact Info Styles */
+.contactInfoContainer {
+  height: 100%;
+}
+
+.contactCard {
+  height: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.contactItem {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.contactItem:last-child {
+  margin-bottom: 0;
+}
+
+.contactIcon {
+  font-size: 24px;
+  color: #1890ff;
+  margin-right: 16px;
+  margin-top: 4px;
+}
+
+.contactLabel {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.contactText {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 0;
+}
+
+/* Form Section */
+.formSection {
+  background-color: #f8f9fa;
+}
+
+/* Office Cards */
+.officeCard {
+  height: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.officeCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.officeImageContainer {
+  height: 200px;
+  overflow: hidden;
+}
+
+.officeImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.officeCard:hover .officeImage {
+  transform: scale(1.1);
+}
+
+.officeContent {
+  padding: 20px;
+}
+
+.officeTitle {
+  font-size: 1.5rem !important;
+  margin-bottom: 12px !important;
+  color: #1890ff !important;
+}
+
+.officeAddress, .officePhone {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #666;
+  display: flex;
+  align-items: center;
+}
+
+.officeAddress :global(.anticon),
+.officePhone :global(.anticon) {
+  margin-right: 8px;
+  color: #1890ff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 5%;
+  }
+  
+  .sectionTitle {
+    font-size: 2rem !important;
+  }
+  
+  .mapContainer {
+    margin-bottom: 30px;
+  }
+  
+  .contactInfoContainer {
+    height: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .section {
+    padding: 40px 5%;
+  }
+  
+  .sectionTitle {
+    font-size: 1.8rem !important;
+  }
+  
+  .contactLabel {
+    font-size: 16px;
+  }
+  
+  .contactText {
+    font-size: 14px;
+  }
+  
+  .officeTitle {
+    font-size: 1.3rem !important;
+  }
+  
+  .officeAddress, .officePhone {
+    font-size: 14px;
+  }
+}
+
+/* Bottom CTA Section */
+.bottomCtaSection {
+  position: relative;
+  padding: 80px 10%;
+  background-image: url('/images/cta-bg.svg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+}
+
+.bottomCtaSection .ctaOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 21, 41, 0.7), rgba(0, 21, 41, 0.8));
+  z-index: 1;
+}
+
+.bottomCtaSection .ctaContent {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.bottomCtaSection .ctaTitle {
+  font-size: 2.5rem !important;
+  color: white !important;
+  margin-bottom: 20px !important;
+}
+
+.bottomCtaSection .ctaDescription {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottomCtaSection .ctaButton {
+  height: 48px;
+  padding: 0 30px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #1890ff;
+  border-color: #1890ff;
+  box-shadow: 0 4px 12px rgba(24, 144, 255, 0.4);
+  transition: all 0.3s ease;
+}
+
+.bottomCtaSection .ctaButton:hover {
+  background-color: #40a9ff;
+  border-color: #40a9ff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(24, 144, 255, 0.5);
+}
+
+@media (max-width: 768px) {
+  .bottomCtaSection {
+    padding: 60px 5%;
+  }
+  
+  .bottomCtaSection .ctaTitle {
+    font-size: 2rem !important;
+  }
+  
+  .bottomCtaSection .ctaDescription {
+    font-size: 1rem;
+  }
+}

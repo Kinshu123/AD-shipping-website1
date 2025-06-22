@@ -1,0 +1,58 @@
+.fleetCard {
+  height: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.fleetCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.imageContainer {
+  position: relative;
+  height: 250px;
+  overflow: hidden;
+}
+
+.vesselImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.fleetCard:hover .vesselImage {
+  transform: scale(1.05);
+}
+
+.ribbon {
+  font-weight: 500;
+}
+
+.contentContainer {
+  padding: 20px;
+}
+
+.vesselName {
+  margin-bottom: 16px !important;
+  color: #001529 !important;
+}
+
+.specs {
+  margin-top: 16px;
+}
+
+.specs :global(.ant-descriptions-item-label) {
+  width: 120px;
+  font-weight: 500;
+  color: #001529;
+}
+
+@media (max-width: 576px) {
+  .imageContainer {
+    height: 200px;
+  }
+}

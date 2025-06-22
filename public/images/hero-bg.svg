@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <!-- Sky Background -->
+  <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:#001529;stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#003a8c;stop-opacity:1" />
+  </linearGradient>
+  <rect width="1920" height="700" fill="url(#skyGradient)" />
+  
+  <!-- Water -->
+  <linearGradient id="waterGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:#003a8c;stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#002766;stop-opacity:1" />
+  </linearGradient>
+  <rect width="1920" height="380" y="700" fill="url(#waterGradient)" />
+  
+  <!-- Stars -->
+  <g>
+    <circle cx="200" cy="100" r="1" fill="white" opacity="0.8" />
+    <circle cx="400" cy="150" r="1" fill="white" opacity="0.6" />
+    <circle cx="600" cy="80" r="1" fill="white" opacity="0.7" />
+    <circle cx="800" cy="200" r="1" fill="white" opacity="0.8" />
+    <circle cx="1000" cy="120" r="1" fill="white" opacity="0.6" />
+    <circle cx="1200" cy="180" r="1" fill="white" opacity="0.7" />
+    <circle cx="1400" cy="90" r="1" fill="white" opacity="0.8" />
+    <circle cx="1600" cy="150" r="1" fill="white" opacity="0.6" />
+    <circle cx="1800" cy="100" r="1" fill="white" opacity="0.7" />
+    <circle cx="300" cy="250" r="1" fill="white" opacity="0.8" />
+    <circle cx="500" cy="300" r="1" fill="white" opacity="0.6" />
+    <circle cx="700" cy="220" r="1" fill="white" opacity="0.7" />
+    <circle cx="900" cy="280" r="1" fill="white" opacity="0.8" />
+    <circle cx="1100" cy="240" r="1" fill="white" opacity="0.6" />
+    <circle cx="1300" cy="320" r="1" fill="white" opacity="0.7" />
+    <circle cx="1500" cy="260" r="1" fill="white" opacity="0.8" />
+    <circle cx="1700" cy="290" r="1" fill="white" opacity="0.6" />
+    <circle cx="250" cy="350" r="1" fill="white" opacity="0.7" />
+    <circle cx="450" cy="400" r="1" fill="white" opacity="0.8" />
+    <circle cx="650" cy="380" r="1" fill="white" opacity="0.6" />
+    <circle cx="850" cy="420" r="1" fill="white" opacity="0.7" />
+    <circle cx="1050" cy="370" r="1" fill="white" opacity="0.8" />
+    <circle cx="1250" cy="410" r="1" fill="white" opacity="0.6" />
+    <circle cx="1450" cy="390" r="1" fill="white" opacity="0.7" />
+    <circle cx="1650" cy="430" r="1" fill="white" opacity="0.8" />
+    <circle cx="1850" cy="360" r="1" fill="white" opacity="0.6" />
+  </g>
+  
+  <!-- Moon -->
+  <circle cx="1600" cy="200" r="80" fill="#fffbe6" opacity="0.8" />
+  <circle cx="1600" cy="200" r="70" fill="#fff1b8" opacity="0.9" />
+  
+  <!-- Distant Ships Silhouettes -->
+  <path d="M200,700 L300,700 L320,680 L180,680 Z" fill="#001529" />
+  <path d="M800,700 L900,700 L920,680 L780,680 Z" fill="#001529" />
+  <path d="M1400,700 L1500,700 L1520,680 L1380,680 Z" fill="#001529" />
+  
+  <!-- Large Ship Silhouette -->
+  <path d="M500,700 L1200,700 L1150,600 L550,600 Z" fill="#001529" />
+  <rect x="700" y="550" width="300" height="50" fill="#001529" />
+  <rect x="800" y="500" width="100" height="50" fill="#001529" />
+  
+  <!-- Water Ripples -->
+  <path d="M0,750 Q240,730 480,750 T960,750 T1440,750 T1920,750" stroke="#1890ff" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M0,800 Q240,780 480,800 T960,800 T1440,800 T1920,800" stroke="#1890ff" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M0,850 Q240,830 480,850 T960,850 T1440,850 T1920,850" stroke="#1890ff" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M0,900 Q240,880 480,900 T960,900 T1440,900 T1920,900" stroke="#1890ff" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M0,950 Q240,930 480,950 T960,950 T1440,950 T1920,950" stroke="#1890ff" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M0,1000 Q240,980 480,1000 T960,1000 T1440,1000 T1920,1000" stroke="#1890ff" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M0,1050 Q240,1030 480,1050 T960,1050 T1440,1050 T1920,1050" stroke="#1890ff" stroke-width="1" fill="none" opacity="0.3" />
+</svg>

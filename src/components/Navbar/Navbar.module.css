@@ -1,0 +1,88 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: 80px;
+  transition: all 0.3s ease;
+}
+
+.scrolled {
+  height: 64px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.logo img {
+  height: 48px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+  margin: auto 0;
+}
+
+.menuContainer {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.menu {
+  border-bottom: none;
+  background: transparent;
+  font-weight: 500;
+  display: flex;
+  justify-content: flex-end;
+  min-width: 500px;
+}
+
+.menu :global(.ant-menu-item:hover) {
+  color: #1890ff !important;
+}
+
+.menu :global(.ant-menu-item-selected) {
+  color: #1890ff !important;
+}
+
+.menuButton {
+  font-size: 28px;
+  height: 48px;
+  width: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto 0;
+}
+
+.mobileMenu {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 0 20px;
+  }
+  
+  .desktopMenu {
+    display: none;
+  }
+  
+  .mobileMenu {
+    display: block;
+  }
+  
+  .menuButton {
+    display: block;
+  }
+}

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#e6f7ff" />
+  
+  <!-- Water -->
+  <rect width="600" height="200" y="200" fill="#1890ff" opacity="0.7" />
+  
+  <!-- Supply/Support Vessel -->
+  <g transform="translate(150, 200)">
+    <!-- Ship Hull -->
+    <path d="M0,0 L300,0 L280,-50 L20,-50 Z" fill="#52c41a" />
+    
+    <!-- Ship Deck -->
+    <rect x="20" y="-50" width="260" height="5" fill="#8c8c8c" />
+    
+    <!-- Bridge/Superstructure (forward for supply vessels) -->
+    <rect x="220" y="-120" width="60" height="70" fill="#52c41a" />
+    <rect x="230" y="-130" width="40" height="10" fill="#52c41a" />
+    
+    <!-- Bridge Windows -->
+    <rect x="230" y="-110" width="40" height="15" fill="#bae7ff" />
+    <line x1="240" y1="-110" x2="240" y2="-95" stroke="#52c41a" stroke-width="2" />
+    <line x1="250" y1="-110" x2="250" y2="-95" stroke="#52c41a" stroke-width="2" />
+    <line x1="260" y1="-110" x2="260" y2="-95" stroke="#52c41a" stroke-width="2" />
+    
+    <!-- Smokestack -->
+    <rect x="240" y="-150" width="20" height="20" fill="#52c41a" />
+    <rect x="235" y="-155" width="30" height="5" fill="#8c8c8c" />
+    <ellipse cx="250" cy="-155" rx="10" ry="5" fill="#8c8c8c" opacity="0.7" />
+    
+    <!-- Crane -->
+    <rect x="120" y="-100" width="10" height="50" fill="#8c8c8c" />
+    <rect x="100" y="-100" width="50" height="5" fill="#8c8c8c" />
+    <rect x="100" y="-120" width="5" height="20" fill="#8c8c8c" />
+    <path d="M100,-120 L90,-130" stroke="#8c8c8c" stroke-width="3" fill="none" />
+    <circle cx="90" cy="-130" r="5" fill="#8c8c8c" />
+    
+    <!-- Deck Equipment -->
+    <rect x="40" y="-70" width="30" height="20" fill="#d9d9d9" />
+    <rect x="80" y="-70" width="20" height="20" fill="#d9d9d9" />
+    <rect x="160" y="-70" width="40" height="20" fill="#d9d9d9" />
+    
+    <!-- Supply Containers -->
+    <rect x="40" y="-90" width="20" height="20" fill="#fa8c16" />
+    <rect x="65" y="-90" width="20" height="20" fill="#1890ff" />
+    <rect x="170" y="-90" width="20" height="20" fill="#722ed1" />
+    
+    <!-- Railings -->
+    <line x1="20" y1="-55" x2="280" y2="-55" stroke="#d9d9d9" stroke-width="2" />
+    <line x1="20" y1="-60" x2="280" y2="-60" stroke="#d9d9d9" stroke-width="2" />
+    
+    <!-- Anchor -->
+    <circle cx="30" cy="-30" r="8" fill="#8c8c8c" />
+    <rect x="26" y="-38" width="8" height="16" fill="#8c8c8c" />
+    
+    <!-- Ship Name -->
+    <rect x="100" y="-25" width="100" height="15" fill="white" opacity="0.8" />
+    <text x="150" y="-15" font-family="Arial, sans-serif" font-size="10" fill="#52c41a" text-anchor="middle">SUPPLY VESSEL</text>
+  </g>
+  
+  <!-- Water Ripples -->
+  <path d="M0,220 Q75,210 150,220 T300,220 T450,220 T600,220" stroke="white" stroke-width="1" fill="none" opacity="0.5" />
+  <path d="M0,240 Q75,230 150,240 T300,240 T450,240 T600,240" stroke="white" stroke-width="1" fill="none" opacity="0.5" />
+  <path d="M0,260 Q75,250 150,260 T300,260 T450,260 T600,260" stroke="white" stroke-width="1" fill="none" opacity="0.5" />
+  
+  <!-- Clouds -->
+  <ellipse cx="500" cy="100" rx="40" ry="20" fill="white" opacity="0.8" />
+  <ellipse cx="530" cy="90" rx="30" ry="15" fill="white" opacity="0.8" />
+  <ellipse cx="560" cy="105" rx="35" ry="18" fill="white" opacity="0.8" />
+  
+  <!-- Offshore Platform in Distance -->
+  <g transform="translate(50, 180)">
+    <rect x="0" y="-100" width="60" height="100" fill="#8c8c8c" opacity="0.7" />
+    <rect x="10" y="-120" width="40" height="20" fill="#8c8c8c" opacity="0.7" />
+    <rect x="20" y="-140" width="20" height="20" fill="#8c8c8c" opacity="0.7" />
+    <line x1="0" y1="-80" x2="60" y2="-80" stroke="#595959" stroke-width="2" />
+    <line x1="0" y1="-60" x2="60" y2="-60" stroke="#595959" stroke-width="2" />
+    <line x1="0" y1="-40" x2="60" y2="-40" stroke="#595959" stroke-width="2" />
+    <line x1="0" y1="-20" x2="60" y2="-20" stroke="#595959" stroke-width="2" />
+  </g>
+  
+  <!-- Birds -->
+  <path d="M420,100 L430,95 L440,100" stroke="#595959" stroke-width="2" fill="none" />
+  <path d="M460,80 L470,75 L480,80" stroke="#595959" stroke-width="2" fill="none" />
+  
+  <!-- Company Logo -->
+  <g transform="translate(20, 20)">
+    <rect x="0" y="0" width="120" height="40" rx="5" fill="#52c41a" />
+    <text x="60" y="25" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">AD SHIPPING</text>
+  </g>
+</svg>

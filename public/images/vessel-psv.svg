@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="250" viewBox="0 0 400 250">
+  <!-- Water Background -->
+  <linearGradient id="waterGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:#B3E5FC;stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#0288D1;stop-opacity:1" />
+  </linearGradient>
+  <rect width="400" height="250" fill="url(#waterGradient)" />
+  
+  <!-- Water Ripples -->
+  <path d="M0,100 Q50,90 100,100 T200,100 T300,100 T400,100" stroke="#81D4FA" stroke-width="2" fill="none" />
+  <path d="M0,130 Q50,120 100,130 T200,130 T300,130 T400,130" stroke="#81D4FA" stroke-width="2" fill="none" />
+  <path d="M0,160 Q50,150 100,160 T200,160 T300,160 T400,160" stroke="#81D4FA" stroke-width="2" fill="none" />
+  <path d="M0,190 Q50,180 100,190 T200,190 T300,190 T400,190" stroke="#81D4FA" stroke-width="2" fill="none" />
+  
+  <!-- PSV Hull -->
+  <path d="M70,150 L330,150 L310,200 L90,200 Z" fill="#1890ff" />
+  
+  <!-- PSV Deck -->
+  <rect x="90" y="150" width="220" height="5" fill="#455A64" />
+  
+  <!-- PSV Cabin Structure -->
+  <rect x="250" y="110" width="60" height="40" fill="#001529" />
+  <rect x="260" y="120" width="10" height="10" fill="#E0F7FA" />
+  <rect x="280" y="120" width="10" height="10" fill="#E0F7FA" />
+  <rect x="260" y="135" width="10" height="10" fill="#E0F7FA" />
+  <rect x="280" y="135" width="10" height="10" fill="#E0F7FA" />
+  
+  <!-- PSV Bridge -->
+  <rect x="260" y="90" width="40" height="20" fill="#001529" />
+  <rect x="265" y="95" width="30" height="10" fill="#E0F7FA" />
+  
+  <!-- PSV Smokestack -->
+  <rect x="270" y="70" width="20" height="20" fill="#455A64" />
+  
+  <!-- PSV Deck Containers -->
+  <rect x="100" y="130" width="20" height="20" fill="#F44336" />
+  <rect x="130" y="130" width="20" height="20" fill="#2196F3" />
+  <rect x="160" y="130" width="20" height="20" fill="#4CAF50" />
+  <rect x="190" y="130" width="20" height="20" fill="#FFC107" />
+  <rect x="220" y="130" width="20" height="20" fill="#9C27B0" />
+  
+  <!-- PSV Crane -->
+  <rect x="230" y="145" width="10" height="5" fill="#455A64" />
+  <rect x="230" y="120" width="5" height="25" fill="#455A64" />
+  <path d="M235,120 L260,100 L260,105 L235,125 Z" fill="#455A64" />
+  <circle cx="260" cy="102.5" r="3" fill="#78909C" />
+  
+  <!-- PSV Railings -->
+  <line x1="90" y1="140" x2="250" y2="140" stroke="#78909C" stroke-width="2" />
+  <line x1="100" y1="130" x2="100" y2="140" stroke="#78909C" stroke-width="2" />
+  <line x1="120" y1="130" x2="120" y2="140" stroke="#78909C" stroke-width="2" />
+  <line x1="140" y1="130" x2="140" y2="140" stroke="#78909C" stroke-width="2" />
+  <line x1="160" y1="130" x2="160" y2="140" stroke="#78909C" stroke-width="2" />
+  <line x1="180" y1="130" x2="180" y2="140" stroke="#78909C" stroke-width="2" />
+  <line x1="200" y1="130" x2="200" y2="140" stroke="#78909C" stroke-width="2" />
+  <line x1="220" y1="130" x2="220" y2="140" stroke="#78909C" stroke-width="2" />
+  <line x1="240" y1="130" x2="240" y2="140" stroke="#78909C" stroke-width="2" />
+  
+  <!-- PSV Name -->
+  <text x="200" y="180" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">AD PLATFORM SUPPLIER</text>
+  
+  <!-- Label -->
+  <rect x="0" y="220" width="400" height="30" fill="rgba(0,0,0,0.5)" />
+  <text x="200" y="240" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Platform Supply Vessel</text>
+</svg>

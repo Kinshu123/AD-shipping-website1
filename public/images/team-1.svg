@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <!-- Background -->
+  <rect width="300" height="300" fill="#f0f5ff" />
+  
+  <!-- Suit -->
+  <rect x="100" y="120" width="100" height="150" fill="#001529" />
+  
+  <!-- Shirt -->
+  <path d="M125,120 L175,120 L175,180 L150,190 L125,180 Z" fill="white" />
+  
+  <!-- Tie -->
+  <path d="M145,120 L155,120 L155,130 L160,140 L150,190 L140,140 L145,130 Z" fill="#1890ff" />
+  
+  <!-- Head -->
+  <circle cx="150" cy="80" r="40" fill="#ffd591" />
+  
+  <!-- Hair -->
+  <path d="M110,80 Q110,40 150,40 Q190,40 190,80 Q190,90 180,90 L120,90 Q110,90 110,80 Z" fill="#595959" />
+  
+  <!-- Eyes -->
+  <ellipse cx="135" cy="75" rx="5" ry="3" fill="#262626" />
+  <ellipse cx="165" cy="75" rx="5" ry="3" fill="#262626" />
+  
+  <!-- Eyebrows -->
+  <path d="M125,65 Q135,60 145,65" stroke="#262626" stroke-width="2" fill="none" />
+  <path d="M155,65 Q165,60 175,65" stroke="#262626" stroke-width="2" fill="none" />
+  
+  <!-- Nose -->
+  <path d="M150,75 L145,90 L155,90" fill="#ffd591" />
+  
+  <!-- Mouth -->
+  <path d="M135,100 Q150,110 165,100" stroke="#262626" stroke-width="2" fill="none" />
+  
+  <!-- Ears -->
+  <path d="M110,80 Q105,75 110,70 Q115,65 110,80" fill="#ffd591" />
+  <path d="M190,80 Q195,75 190,70 Q185,65 190,80" fill="#ffd591" />
+  
+  <!-- Glasses -->
+  <rect x="125" y="72" width="20" height="10" rx="3" fill="none" stroke="#8c8c8c" stroke-width="2" />
+  <rect x="155" y="72" width="20" height="10" rx="3" fill="none" stroke="#8c8c8c" stroke-width="2" />
+  <line x1="145" y1="77" x2="155" y2="77" stroke="#8c8c8c" stroke-width="2" />
+  
+  <!-- Name Tag -->
+  <rect x="125" y="150" width="50" height="15" rx="2" fill="white" />
+  <text x="150" y="162" font-family="Arial, sans-serif" font-size="10" fill="#001529" text-anchor="middle">DIRECTOR</text>
+  
+  <!-- Professional Look Details -->
+  <line x1="125" y1="270" x2="175" y2="270" stroke="#001529" stroke-width="2" />
+  <line x1="100" y1="200" x2="120" y2="200" stroke="#001529" stroke-width="1" />
+  <line x1="180" y1="200" x2="200" y2="200" stroke="#001529" stroke-width="1" />
+</svg>
