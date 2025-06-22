@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="250" viewBox="0 0 400 250">
+  <!-- Water Background -->
+  <linearGradient id="waterGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:#B3E5FC;stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#0288D1;stop-opacity:1" />
+  </linearGradient>
+  <rect width="400" height="250" fill="url(#waterGradient)" />
+  
+  <!-- Water Ripples -->
+  <path d="M0,100 Q50,90 100,100 T200,100 T300,100 T400,100" stroke="#81D4FA" stroke-width="2" fill="none" />
+  <path d="M0,130 Q50,120 100,130 T200,130 T300,130 T400,130" stroke="#81D4FA" stroke-width="2" fill="none" />
+  <path d="M0,160 Q50,150 100,160 T200,160 T300,160 T400,160" stroke="#81D4FA" stroke-width="2" fill="none" />
+  <path d="M0,190 Q50,180 100,190 T200,190 T300,190 T400,190" stroke="#81D4FA" stroke-width="2" fill="none" />
+  
+  <!-- Crew Boat Hull -->
+  <path d="M100,150 L300,150 L320,180 L80,180 Z" fill="#1890ff" />
+  
+  <!-- Crew Boat Deck -->
+  <rect x="100" y="150" width="200" height="5" fill="#455A64" />
+  
+  <!-- Crew Boat Cabin Structure -->
+  <path d="M120,150 L280,150 L260,110 L140,110 Z" fill="#001529" />
+  
+  <!-- Crew Boat Windows -->
+  <rect x="145" y="120" width="15" height="10" fill="#E0F7FA" />
+  <rect x="165" y="120" width="15" height="10" fill="#E0F7FA" />
+  <rect x="185" y="120" width="15" height="10" fill="#E0F7FA" />
+  <rect x="205" y="120" width="15" height="10" fill="#E0F7FA" />
+  <rect x="225" y="120" width="15" height="10" fill="#E0F7FA" />
+  <rect x="245" y="120" width="15" height="10" fill="#E0F7FA" />
+  
+  <!-- Crew Boat Bridge -->
+  <path d="M180,110 L220,110 L210,90 L190,90 Z" fill="#001529" />
+  <rect x="190" y="95" width="20" height="10" fill="#E0F7FA" />
+  
+  <!-- Crew Boat Antenna -->
+  <line x1="200" y1="90" x2="200" y2="70" stroke="#78909C" stroke-width="2" />
+  <circle cx="200" cy="70" r="3" fill="#78909C" />
+  
+  <!-- Crew Boat Railings -->
+  <line x1="120" y1="140" x2="280" y2="140" stroke="#78909C" stroke-width="1" />
+  <line x1="130" y1="130" x2="130" y2="140" stroke="#78909C" stroke-width="1" />
+  <line x1="150" y1="130" x2="150" y2="140" stroke="#78909C" stroke-width="1" />
+  <line x1="170" y1="130" x2="170" y2="140" stroke="#78909C" stroke-width="1" />
+  <line x1="190" y1="130" x2="190" y2="140" stroke="#78909C" stroke-width="1" />
+  <line x1="210" y1="130" x2="210" y2="140" stroke="#78909C" stroke-width="1" />
+  <line x1="230" y1="130" x2="230" y2="140" stroke="#78909C" stroke-width="1" />
+  <line x1="250" y1="130" x2="250" y2="140" stroke="#78909C" stroke-width="1" />
+  <line x1="270" y1="130" x2="270" y2="140" stroke="#78909C" stroke-width="1" />
+  
+  <!-- Crew Boat Wake -->
+  <path d="M80,180 Q100,190 120,180 T160,180 T200,180 T240,180 T280,180 T320,180" stroke="white" stroke-width="2" fill="none" />
+  <path d="M80,185 Q100,195 120,185 T160,185 T200,185 T240,185 T280,185 T320,185" stroke="white" stroke-width="1" fill="none" />
+  
+  <!-- Crew Boat Name -->
+  <text x="200" y="170" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">AD CREW EXPRESS</text>
+  
+  <!-- Label -->
+  <rect x="0" y="220" width="400" height="30" fill="rgba(0,0,0,0.5)" />
+  <text x="200" y="240" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Crew Boat</text>
+</svg>

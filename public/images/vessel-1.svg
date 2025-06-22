@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#e6f7ff" />
+  
+  <!-- Water -->
+  <rect width="600" height="200" y="200" fill="#1890ff" opacity="0.7" />
+  
+  <!-- Cargo Ship -->
+  <g transform="translate(100, 200)">
+    <!-- Ship Hull -->
+    <path d="M0,0 L400,0 L380,-80 L20,-80 Z" fill="#001529" />
+    
+    <!-- Ship Deck -->
+    <rect x="20" y="-80" width="360" height="10" fill="#8c8c8c" />
+    
+    <!-- Bridge/Superstructure -->
+    <rect x="300" y="-150" width="60" height="70" fill="#001529" />
+    <rect x="310" y="-160" width="40" height="10" fill="#001529" />
+    
+    <!-- Bridge Windows -->
+    <rect x="310" y="-140" width="40" height="10" fill="#bae7ff" />
+    <rect x="310" y="-120" width="40" height="10" fill="#bae7ff" />
+    
+    <!-- Cargo Containers -->
+    <g>
+      <!-- Row 1 -->
+      <rect x="40" y="-120" width="40" height="40" fill="#f5222d" />
+      <rect x="85" y="-120" width="40" height="40" fill="#fa8c16" />
+      <rect x="130" y="-120" width="40" height="40" fill="#52c41a" />
+      <rect x="175" y="-120" width="40" height="40" fill="#1890ff" />
+      <rect x="220" y="-120" width="40" height="40" fill="#722ed1" />
+      
+      <!-- Row 2 -->
+      <rect x="40" y="-165" width="40" height="40" fill="#fa8c16" />
+      <rect x="85" y="-165" width="40" height="40" fill="#52c41a" />
+      <rect x="130" y="-165" width="40" height="40" fill="#1890ff" />
+      <rect x="175" y="-165" width="40" height="40" fill="#722ed1" />
+      <rect x="220" y="-165" width="40" height="40" fill="#f5222d" />
+      
+      <!-- Row 3 -->
+      <rect x="40" y="-210" width="40" height="40" fill="#52c41a" />
+      <rect x="85" y="-210" width="40" height="40" fill="#1890ff" />
+      <rect x="130" y="-210" width="40" height="40" fill="#722ed1" />
+      <rect x="175" y="-210" width="40" height="40" fill="#f5222d" />
+      <rect x="220" y="-210" width="40" height="40" fill="#fa8c16" />
+    </g>
+    
+    <!-- Crane -->
+    <rect x="250" y="-150" width="10" height="70" fill="#8c8c8c" />
+    <rect x="240" y="-150" width="30" height="5" fill="#8c8c8c" />
+    <rect x="240" y="-150" width="5" height="20" fill="#8c8c8c" />
+    
+    <!-- Railings -->
+    <line x1="20" y1="-85" x2="380" y2="-85" stroke="#d9d9d9" stroke-width="2" />
+    <line x1="20" y1="-90" x2="380" y2="-90" stroke="#d9d9d9" stroke-width="2" />
+    
+    <!-- Anchor -->
+    <circle cx="30" cy="-40" r="10" fill="#8c8c8c" />
+    <rect x="25" y="-50" width="10" height="20" fill="#8c8c8c" />
+    
+    <!-- Ship Name -->
+    <rect x="150" y="-40" width="100" height="20" fill="white" opacity="0.8" />
+    <text x="200" y="-25" font-family="Arial, sans-serif" font-size="12" fill="#001529" text-anchor="middle">CARGO VESSEL</text>
+  </g>
+  
+  <!-- Water Ripples -->
+  <path d="M0,220 Q75,210 150,220 T300,220 T450,220 T600,220" stroke="white" stroke-width="1" fill="none" opacity="0.5" />
+  <path d="M0,240 Q75,230 150,240 T300,240 T450,240 T600,240" stroke="white" stroke-width="1" fill="none" opacity="0.5" />
+  <path d="M0,260 Q75,250 150,260 T300,260 T450,260 T600,260" stroke="white" stroke-width="1" fill="none" opacity="0.5" />
+  
+  <!-- Sun -->
+  <circle cx="500" cy="80" r="40" fill="#ffe58f" />
+  <circle cx="500" cy="80" r="30" fill="#ffd666" />
+  
+  <!-- Birds -->
+  <path d="M420,100 L430,95 L440,100" stroke="#595959" stroke-width="2" fill="none" />
+  <path d="M460,80 L470,75 L480,80" stroke="#595959" stroke-width="2" fill="none" />
+  <path d="M440,60 L450,55 L460,60" stroke="#595959" stroke-width="2" fill="none" />
+  
+  <!-- Company Logo -->
+  <g transform="translate(20, 20)">
+    <rect x="0" y="0" width="120" height="40" rx="5" fill="#001529" />
+    <text x="60" y="25" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">AD SHIPPING</text>
+  </g>
+</svg>

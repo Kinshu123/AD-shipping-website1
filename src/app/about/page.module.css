@@ -1,0 +1,157 @@
+.container {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.section {
+  padding: 80px 10%;
+  width: 100%;
+}
+
+.content {
+  padding: 20px;
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.imageContainer {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.5s ease;
+}
+
+.imageContainer:hover .image {
+  transform: scale(1.05);
+}
+
+/* Mission, Vision, Values Section */
+.missionSection {
+  background-color: #f8f9fa;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.sectionTitle {
+  font-size: 2.5rem !important;
+  margin-bottom: 16px !important;
+  position: relative;
+  display: inline-block;
+}
+
+.sectionTitle::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background-color: #1890ff;
+}
+
+.sectionDescription {
+  font-size: 18px;
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.mvvCard {
+  height: 100%;
+  text-align: center;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mvvCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.mvvIcon {
+  margin-bottom: 20px;
+}
+
+.mvvTitle {
+  margin-bottom: 16px !important;
+  color: #1890ff !important;
+}
+
+.mvvText {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Timeline Section */
+.timelineContainer {
+  padding: 40px 0;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.timelineItem {
+  padding: 0 20px;
+}
+
+.timelineItem h4 {
+  color: #1890ff;
+  margin-bottom: 8px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 5%;
+  }
+  
+  .sectionTitle {
+    font-size: 2rem !important;
+  }
+  
+  .mvvCard {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .section {
+    padding: 40px 5%;
+  }
+  
+  .sectionTitle {
+    font-size: 1.8rem !important;
+  }
+  
+  .paragraph {
+    font-size: 14px;
+  }
+  
+  .mvvText {
+    font-size: 14px;
+  }
+  
+  .timelineItem {
+    padding: 0 10px;
+  }
+}

@@ -1,0 +1,173 @@
+.container {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.section {
+  padding: 80px 10%;
+  width: 100%;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.sectionTitle {
+  font-size: 2.5rem !important;
+  margin-bottom: 16px !important;
+  position: relative;
+  display: inline-block;
+}
+
+.sectionTitle::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background-color: #1890ff;
+}
+
+.sectionDescription {
+  font-size: 18px;
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Service Detail Section */
+.serviceDetailSection {
+  padding: 80px 10%;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.serviceDetailSection:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+
+.serviceImage {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.5s ease;
+}
+
+.serviceImage:hover .image {
+  transform: scale(1.05);
+}
+
+.serviceContent {
+  padding: 20px;
+}
+
+.serviceOverview {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.featureItem {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #333;
+}
+
+.featureBullet {
+  width: 8px;
+  height: 8px;
+  background-color: #1890ff;
+  border-radius: 50%;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.serviceProcess {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #333;
+}
+
+/* Why Choose Us Section */
+.whyChooseSection {
+  background-color: #f8f9fa;
+}
+
+.whyChooseCard {
+  height: 100%;
+  text-align: center;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.whyChooseCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.whyChooseIcon {
+  margin-bottom: 20px;
+}
+
+.whyChooseTitle {
+  margin-bottom: 16px !important;
+  color: #1890ff !important;
+}
+
+.whyChooseText {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .section, .serviceDetailSection {
+    padding: 60px 5%;
+  }
+  
+  .sectionTitle {
+    font-size: 2rem !important;
+  }
+  
+  .orderMobile1 {
+    order: 1;
+  }
+  
+  .orderMobile2 {
+    order: 2;
+  }
+  
+  .whyChooseCard {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .section, .serviceDetailSection {
+    padding: 40px 5%;
+  }
+  
+  .sectionTitle {
+    font-size: 1.8rem !important;
+  }
+  
+  .serviceOverview, .serviceProcess, .featureItem, .whyChooseText {
+    font-size: 14px;
+  }
+}

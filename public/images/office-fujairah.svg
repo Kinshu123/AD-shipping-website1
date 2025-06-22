@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="250" viewBox="0 0 400 250">
+  <!-- Sky Background -->
+  <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:#4FC3F7;stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#B3E5FC;stop-opacity:1" />
+  </linearGradient>
+  <rect width="400" height="150" fill="url(#skyGradient)" />
+  
+  <!-- Mountains -->
+  <polygon points="0,150 50,80 100,130 150,70 200,120 250,60 300,110 350,90 400,150" fill="#795548" />
+  <polygon points="0,150 40,100 80,140 120,90 160,130 200,80 240,120 280,70 320,130 360,100 400,150" fill="#8D6E63" />
+  
+  <!-- Water -->
+  <rect width="400" height="100" y="150" fill="#0288D1" />
+  
+  <!-- Port Facilities -->
+  <rect x="50" y="150" width="300" height="10" fill="#455A64" />
+  <rect x="80" y="130" width="10" height="20" fill="#78909C" />
+  <rect x="150" y="130" width="10" height="20" fill="#78909C" />
+  <rect x="220" y="130" width="10" height="20" fill="#78909C" />
+  <rect x="290" y="130" width="10" height="20" fill="#78909C" />
+  
+  <!-- Cranes -->
+  <line x1="85" y1="130" x2="85" y2="90" stroke="#455A64" stroke-width="3" />
+  <line x1="85" y1="90" x2="110" y2="90" stroke="#455A64" stroke-width="3" />
+  <line x1="155" y1="130" x2="155" y2="100" stroke="#455A64" stroke-width="3" />
+  <line x1="155" y1="100" x2="180" y2="100" stroke="#455A64" stroke-width="3" />
+  <line x1="225" y1="130" x2="225" y2="80" stroke="#455A64" stroke-width="3" />
+  <line x1="225" y1="80" x2="250" y2="80" stroke="#455A64" stroke-width="3" />
+  <line x1="295" y1="130" x2="295" y2="110" stroke="#455A64" stroke-width="3" />
+  <line x1="295" y1="110" x2="320" y2="110" stroke="#455A64" stroke-width="3" />
+  
+  <!-- AD Shipping Office -->
+  <rect x="20" y="100" width="50" height="50" fill="#1890ff" />
+  <rect x="30" y="110" width="30" height="30" fill="#40a9ff" />
+  <text x="45" y="130" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">AD</text>
+  
+  <!-- Ships -->
+  <path d="M120,170 L150,170 L160,180 L110,180 Z" fill="#455A64" />
+  <path d="M200,180 L230,180 L240,190 L190,190 Z" fill="#455A64" />
+  <path d="M280,175 L310,175 L320,185 L270,185 Z" fill="#455A64" />
+  
+  <!-- Containers -->
+  <rect x="60" y="140" width="10" height="10" fill="#F44336" />
+  <rect x="130" y="140" width="10" height="10" fill="#2196F3" />
+  <rect x="200" y="140" width="10" height="10" fill="#4CAF50" />
+  <rect x="270" y="140" width="10" height="10" fill="#FFC107" />
+  <rect x="340" y="140" width="10" height="10" fill="#9C27B0" />
+  
+  <!-- Label -->
+  <rect x="0" y="220" width="400" height="30" fill="rgba(0,0,0,0.5)" />
+  <text x="200" y="240" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Fujairah Port Office</text>
+</svg>
