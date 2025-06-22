@@ -59,10 +59,16 @@ export default function ContactPage() {
                 <div className={styles.contactItem}>
                   <PhoneOutlined className={styles.contactIcon} />
                   <div>
-                    <h3 className={styles.contactLabel}>Phone</h3>
+                    <h3 className={styles.contactLabel}>Phone / WhatsApp</h3>
                     <p className={styles.contactText}>
-                      Mr. Amit Vora: +91-9909480248<br />
-                      Mr. Tirth A Vora: +91-7600271333
+                      <a href="https://wa.me/919909480248" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="20" height="20" style={{ verticalAlign: 'middle' }} />
+                        Mr. Amit Vora: +91-9909480248
+                      </a><br />
+                      <a href="https://wa.me/917600271333" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="20" height="20" style={{ verticalAlign: 'middle' }} />
+                        Mr. Tirth A Vora: +91-7600271333
+                      </a>
                     </p>
                   </div>
                 </div>

@@ -107,6 +107,12 @@
   margin-bottom: 0;
 }
 
+.contactText a {
+  word-break: break-all;
+  white-space: nowrap;
+  display: inline-block;
+}
+
 /* Form Section */
 .formSection {
   background-color: #f8f9fa;
