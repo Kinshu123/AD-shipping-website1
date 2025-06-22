@@ -29,14 +29,16 @@ export default function ContactPage() {
         <Row gutter={[32, 32]}>
           <Col xs={24} md={16}>
             <div className={styles.mapContainer}>
-              {/* In a real application, this would be an actual map component */}
-              <div className={styles.mapPlaceholder}>
-                <img 
-                  src="/images/map.svg" 
-                  alt="Office Location Map" 
-                  className={styles.mapImage}
-                />
-              </div>
+              <iframe
+                title="Office Location Map"
+                src="https://www.google.com/maps?q=PLOT+NO.6,+NEAR+INDANE+GAS+GODOWN,+OPP.+RAILWAY+STATION,+BEDI+BUNDAR+ROAD,+M.P+SHAH+UDHYOGNAGAR,+JAMNAGAR,+GUJARAT,+INDIA-361008&output=embed"
+                width="100%"
+                height="400"
+                style={{ border: 0, borderRadius: '12px', boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
           </Col>
           
@@ -111,77 +113,31 @@ export default function ContactPage() {
         </Row>
       </section>
       
-      {/* Offices Section */}
+      {/* FAQ Section */}
       <section className={styles.section}>
         <div className={styles.sectionHeader}>
-          <Title level={2} className={styles.sectionTitle}>Our Offices</Title>
-          <Paragraph className={styles.sectionDescription}>
-            Visit us at one of our offices across the UAE.
-          </Paragraph>
+          <Title level={2} className={styles.sectionTitle}>Frequently Asked Questions</Title>
         </div>
-        
-        <Row gutter={[32, 32]}>
-          <Col xs={24} sm={12} md={8}>
-            <Card className={styles.officeCard}>
-              <div className={styles.officeImageContainer}>
-                <img 
-                  src="/images/office-abudhabi.svg" 
-                  alt="Abu Dhabi Office" 
-                  className={styles.officeImage}
-                />
+        <Row justify="center">
+          <Col xs={24} md={18} lg={14}>
+            <div className={styles.faqList}>
+              <div className={styles.faqItem}>
+                <h4>How can I get a quote for your services?</h4>
+                <p>You can use the contact form above, call us, or reach out via WhatsApp for a quick response.</p>
               </div>
-              <div className={styles.officeContent}>
-                <Title level={3} className={styles.officeTitle}>Abu Dhabi (HQ)</Title>
-                <p className={styles.officeAddress}>
-                  <EnvironmentOutlined /> Port Zayed, Abu Dhabi, UAE
-                </p>
-                <p className={styles.officePhone}>
-                  <PhoneOutlined /> +971 2 123 4567
-                </p>
+              <div className={styles.faqItem}>
+                <h4>Do you provide emergency maritime support?</h4>
+                <p>Yes, we offer 24/7 emergency support. Please use the phone numbers or WhatsApp links provided.</p>
               </div>
-            </Card>
-          </Col>
-          
-          <Col xs={24} sm={12} md={8}>
-            <Card className={styles.officeCard}>
-              <div className={styles.officeImageContainer}>
-                <img 
-                  src="/images/office-dubai.svg" 
-                  alt="Dubai Office" 
-                  className={styles.officeImage}
-                />
+              <div className={styles.faqItem}>
+                <h4>Where are you located?</h4>
+                <p>Our main office is in Jamnagar, Gujarat, India. See the map above for our exact location.</p>
               </div>
-              <div className={styles.officeContent}>
-                <Title level={3} className={styles.officeTitle}>Dubai</Title>
-                <p className={styles.officeAddress}>
-                  <EnvironmentOutlined /> Jebel Ali Port, Dubai, UAE
-                </p>
-                <p className={styles.officePhone}>
-                  <PhoneOutlined /> +971 4 987 6543
-                </p>
+              <div className={styles.faqItem}>
+                <h4>What regions do you serve?</h4>
+                <p>We serve clients across India and internationally. Contact us for specific inquiries.</p>
               </div>
-            </Card>
-          </Col>
-          
-          <Col xs={24} sm={12} md={8}>
-            <Card className={styles.officeCard}>
-              <div className={styles.officeImageContainer}>
-                <img 
-                  src="/images/office-fujairah.svg" 
-                  alt="Fujairah Office" 
-                  className={styles.officeImage}
-                />
-              </div>
-              <div className={styles.officeContent}>
-                <Title level={3} className={styles.officeTitle}>Fujairah</Title>
-                <p className={styles.officeAddress}>
-                  <EnvironmentOutlined /> Fujairah Port, Fujairah, UAE
-                </p>
-                <p className={styles.officePhone}>
-                  <PhoneOutlined /> +971 9 765 4321
-                </p>
-              </div>
-            </Card>
+            </div>
           </Col>
         </Row>
       </section>

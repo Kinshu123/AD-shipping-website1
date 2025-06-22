@@ -104,100 +104,66 @@ export default function AboutPage() {
                 • Organize regular training programs for our staff to upgrade and improve their skills.<br />
                 • Teamwork & clear communication.
               </Paragraph>
-              <Paragraph className={styles.mvvText}>
-                <strong>Excellence:</strong> Striving for the highest standards in all our services.<br/>
-                <strong>Safety:</strong> Prioritizing the well-being of our team and clients.<br/>
-                <strong>Integrity:</strong> Operating with honesty and transparency.<br/>
-                <strong>Innovation:</strong> Embracing new technologies and approaches.<br/>
-                <strong>Sustainability:</strong> Minimizing our environmental impact.
-              </Paragraph>
+             
             </Card>
           </Col>
         </Row>
       </section>
       
-      {/* Company History */}
+      {/* Why Choose Us Section */}
       <section className={styles.section}>
         <div className={styles.sectionHeader}>
-          <Title level={2} className={styles.sectionTitle}>Our History</Title>
+          <Title level={2} className={styles.sectionTitle}>Why Choose Us</Title>
           <Paragraph className={styles.sectionDescription}>
-            The journey of AD Shipping Services from its founding to becoming a leading maritime services provider
+            Discover what sets AD Shipping Services apart and why clients trust us for their maritime needs.
           </Paragraph>
         </div>
-        <div className={styles.timelineContainer}>
-          <Timeline mode="alternate" items={[
-            {
-              children: (
-                <div className={styles.timelineItem}>
-                  <Title level={4}>2005</Title>
-                  <Paragraph>
-                    AD Shipping Services was founded in Abu Dhabi with a small fleet of tugboats, offering basic towing services.
-                  </Paragraph>
-                </div>
-              ),
-            },
-            {
-              children: (
-                <div className={styles.timelineItem}>
-                  <Title level={4}>2008</Title>
-                  <Paragraph>
-                    Expanded services to include vessel repairs and maintenance, establishing our first dry-docking facility.
-                  </Paragraph>
-                </div>
-              ),
-            },
-            {
-              children: (
-                <div className={styles.timelineItem}>
-                  <Title level={4}>2012</Title>
-                  <Paragraph>
-                    Entered the shipbuilding sector, focusing on custom vessel construction for the oil and gas industry.
-                  </Paragraph>
-                </div>
-              ),
-            },
-            {
-              children: (
-                <div className={styles.timelineItem}>
-                  <Title level={4}>2015</Title>
-                  <Paragraph>
-                    Celebrated 10 years of operations and expanded our fleet to include offshore supply vessels and crew boats.
-                  </Paragraph>
-                </div>
-              ),
-            },
-            {
-              children: (
-                <div className={styles.timelineItem}>
-                  <Title level={4}>2018</Title>
-                  <Paragraph>
-                    Began offering specialized SPM operations services, becoming a key player in the offshore loading and unloading sector.
-                  </Paragraph>
-                </div>
-              ),
-            },
-            {
-              children: (
-                <div className={styles.timelineItem}>
-                  <Title level={4}>2020</Title>
-                  <Paragraph>
-                    Implemented advanced digital solutions across all operations, enhancing efficiency and service quality.
-                  </Paragraph>
-                </div>
-              ),
-            },
-            {
-              children: (
-                <div className={styles.timelineItem}>
-                  <Title level={4}>Present</Title>
-                  <Paragraph>
-                    Continuing to grow and innovate, with a focus on sustainable practices and expanding our presence in the Middle East and beyond.
-                  </Paragraph>
-                </div>
-              ),
-            },
-          ]} />
-        </div>
+        <Row gutter={[32, 32]} justify="center">
+          <Col xs={24} md={6}>
+            <Card className={styles.mvvCard}>
+              <div className={styles.mvvIcon}>
+                <Image src="/images/quality-icon.svg" alt="Quality" width={60} height={60} />
+              </div>
+              <Title level={4} className={styles.mvvTitle}>Unmatched Quality</Title>
+              <Paragraph className={styles.mvvText}>
+                We adhere to the highest standards of quality and safety in every project we undertake.
+              </Paragraph>
+            </Card>
+          </Col>
+          <Col xs={24} md={6}>
+            <Card className={styles.mvvCard}>
+              <div className={styles.mvvIcon}>
+                <Image src="/images/safety-icon.svg" alt="Safety" width={60} height={60} />
+              </div>
+              <Title level={4} className={styles.mvvTitle}>Safety First</Title>
+              <Paragraph className={styles.mvvText}>
+                Our uncompromising attitude towards safety ensures peace of mind for our clients and staff.
+              </Paragraph>
+            </Card>
+          </Col>
+          <Col xs={24} md={6}>
+            <Card className={styles.mvvCard}>
+              <div className={styles.mvvIcon}>
+                <Image src="/images/experience-icon.svg" alt="Experience" width={60} height={60} />
+              </div>
+              <Title level={4} className={styles.mvvTitle}>Experienced Team</Title>
+              <Paragraph className={styles.mvvText}>
+                Our leadership and crew bring decades of maritime expertise to every project.
+              </Paragraph>
+            </Card>
+          </Col>
+          <Col xs={24} md={6}>
+            <Card className={styles.mvvCard}>
+              <div className={styles.mvvIcon}>
+                <Image src="/images/values-icon.svg" alt="Values" width={60} height={60} />
+              </div>
+              <Title level={4} className={styles.mvvTitle}>Client Focused</Title>
+              <Paragraph className={styles.mvvText}>
+                We build long-term relationships by understanding and meeting our clients' unique needs.
+              </Paragraph>
+            </Card>
+          </Col>
+        </Row>
       </section>
       
       {/* Team Section */}

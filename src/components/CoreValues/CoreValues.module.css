@@ -1,0 +1,144 @@
+.coreValues {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 0 20px;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  color: #001529;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.sectionDescription {
+  font-size: 1.1rem;
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.valuesContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.valueCard {
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: white;
+  overflow: hidden;
+}
+
+.valueCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.valueContent {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.valueIconContainer {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0f7ff;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.valueCard:hover .valueIconContainer {
+  background: #1890ff;
+  transform: scale(1.1);
+}
+
+.valueIcon {
+  font-size: 32px;
+  color: #1890ff;
+  transition: all 0.3s ease;
+}
+
+.valueCard:hover .valueIcon {
+  color: white;
+}
+
+.valueTitle {
+  font-size: 1.4rem;
+  color: #001529;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.valueDescription {
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .sectionTitle {
+    font-size: 2.2rem;
+  }
+  
+  .sectionDescription {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .coreValues {
+    padding: 60px 0;
+  }
+  
+  .sectionTitle {
+    font-size: 2rem;
+  }
+  
+  .valueCard {
+    margin-bottom: 20px;
+  }
+  
+  .valueIconContainer {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .valueIcon {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 576px) {
+  .sectionTitle {
+    font-size: 1.8rem;
+  }
+  
+  .sectionDescription {
+    font-size: 0.95rem;
+  }
+  
+  .valueTitle {
+    font-size: 1.3rem;
+  }
+  
+  .valueDescription {
+    font-size: 0.9rem;
+  }
+}

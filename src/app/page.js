@@ -7,6 +7,7 @@ import HeroSection from '../components/HeroSection';
 import ServiceCard from '../components/ServiceCard';
 import TeamSection from '../components/TeamSection';
 import ClientsSection from '../components/ClientsSection';
+import CoreValues from '../components/CoreValues';
 import servicesData from '../utils/servicesData';
 import styles from './page.module.css';
 
@@ -80,6 +81,9 @@ export default function Home() {
           </Link>
         </div>
       </section>
+
+      {/* Core Values Section */}
+      <CoreValues />
 
       {/* Stats Section */}
       <section className={styles.statsSection}>
