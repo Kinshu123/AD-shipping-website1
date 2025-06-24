@@ -184,12 +184,7 @@ export default function ServicesPage() {
                     height={500}
                     className={styles.heroImage}
                   />
-                  <div className={styles.imageOverlay}>
-                    <div className={styles.overlayContent}>
-                      <Title level={3} className={styles.overlayTitle}>19+ Years</Title>
-                      <Paragraph className={styles.overlayText}>of Maritime Excellence</Paragraph>
-                    </div>
-                  </div>
+                 
                 </div>
               </div>
             </Col>

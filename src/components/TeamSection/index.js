@@ -40,14 +40,7 @@ const TeamSection = () => {
           <Col xs={24} sm={24} md={12} lg={12} xl={12} key={member.id}>
             <Card className={styles.teamCard} hoverable>
               <div className={styles.cardContent}>
-                <Avatar 
-                  src={member.image}
-                  size={120}
-                  className={styles.avatar}
-                  icon={!member.image && <span style={{ fontSize: '48px' }}>{member.name.split(' ').map(n => n[0]).join('')}</span>}
-                >
-                  {!member.image && member.name.split(' ').map(n => n[0]).join('')}
-                </Avatar>
+               
                 <div className={styles.memberInfo}>
                   <h4 className={styles.memberName}>{member.name}</h4>
                   <span className={styles.memberPosition}>{member.position}</span>

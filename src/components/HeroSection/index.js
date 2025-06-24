@@ -42,12 +42,7 @@ const HeroSection = () => {
     }
   ];
 
-  const stats = [
-    { title: "19+", suffix: "Years", description: "Industry Experience" },
-    { title: "500+", suffix: "Projects", description: "Successfully Completed" },
-    { title: "50+", suffix: "Vessels", description: "Built & Delivered" },
-    { title: "24/7", suffix: "Support", description: "Customer Service" }
-  ];
+  
 
   useEffect(() => {
     // Trigger animations after component mounts
@@ -160,25 +155,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Statistics Section */}
-      <div className={styles.statsSection}>
-        <div className="container">
-          <Row gutter={[24, 24]} className={styles.statsRow}>
-            {stats.map((stat, index) => (
-              <Col xs={12} sm={6} key={index}>
-                <Card className={styles.statCard} bordered={false}>
-                  <Statistic
-                    title={stat.description}
-                    value={stat.title}
-                    suffix={stat.suffix}
-                    className={styles.statistic}
-                  />
-                </Card>
-              </Col>
-            ))}
-          </Row>
-        </div>
-      </div>
+   
 
       {/* Scroll Indicator */}
       <div className={styles.scrollIndicator}>

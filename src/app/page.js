@@ -139,12 +139,7 @@ export default function Home() {
                     />
                   </div>
                 </div>
-                <div className={styles.experienceBadge}>
-                  <div className={styles.badgeContent}>
-                    <span className={styles.badgeNumber}>19+</span>
-                    <span className={styles.badgeText}>Years of Excellence</span>
-                  </div>
-                </div>
+               
               </div>
             </Col>
             <Col xs={24} lg={12}>
@@ -243,7 +238,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Company Timeline */}
+      {/* Company Timeline
       <section className={`${styles.section} ${styles.timelineSection}`}>
         <div className="container">
           <div className={styles.sectionHeader}>
@@ -270,7 +265,7 @@ export default function Home() {
             />
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Statistics Section */}
       <section className={styles.statsSection}>
@@ -320,52 +315,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      <section className={`${styles.section} ${styles.testimonialsSection}`}>
-        <div className="container">
-          <div className={styles.sectionHeader}>
-            <h2 className={styles.sectionTitle}>What Our Clients Say</h2>
-            <p className={styles.sectionDescription}>
-              Trusted by industry leaders worldwide
-            </p>
-          </div>
-
-          <Carousel
-            autoplay
-            dots={{ className: styles.carouselDots }}
-            className={styles.testimonialsCarousel}
-          >
-            {testimonials.map((testimonial, index) => (
-              <div key={index} className={styles.testimonialSlide}>
-                <Card className={styles.testimonialCard} bordered={false}>
-                  <div className={styles.testimonialContent}>
-                    <div className={styles.testimonialRating}>
-                      {[...Array(testimonial.rating)].map((_, i) => (
-                        <StarFilled key={i} className={styles.star} />
-                      ))}
-                    </div>
-                    <p className={styles.testimonialText}>"{testimonial.text}"</p>
-                    <div className={styles.testimonialAuthor}>
-                      <Image
-                        src={testimonial.image}
-                        alt={testimonial.name}
-                        width={60}
-                        height={60}
-                        className={styles.authorImage}
-                      />
-                      <div className={styles.authorInfo}>
-                        <h4 className={styles.authorName}>{testimonial.name}</h4>
-                        <p className={styles.authorCompany}>{testimonial.company}</p>
-                      </div>
-                    </div>
-                  </div>
-                </Card>
-              </div>
-            ))}
-          </Carousel>
-        </div>
-      </section>
-
+      
       {/* Team Section */}
       <TeamSection />
 

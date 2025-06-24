@@ -249,21 +249,7 @@ const Footer = () => {
           </ul>
 
           {/* Service Highlights */}
-          <div className={styles.serviceHighlights}>
-            <Title level={5} className={styles.highlightsTitle}>Why Choose Us?</Title>
-            <div className={styles.highlight}>
-              <Badge status="success" />
-              <span>19+ Years Experience</span>
-            </div>
-            <div className={styles.highlight}>
-              <Badge status="processing" />
-              <span>500+ Projects Completed</span>
-            </div>
-            <div className={styles.highlight}>
-              <Badge status="warning" />
-              <span>24/7 Emergency Support</span>
-            </div>
-          </div>
+         
         </div>
 
         {/* Enhanced Contact Info */}

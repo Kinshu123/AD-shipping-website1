@@ -206,24 +206,7 @@ export default function AboutPage() {
                   across the globe with unwavering commitment to quality and innovation.
                 </Paragraph>
 
-                <div className={styles.heroStats}>
-                  <Row gutter={[24, 24]}>
-                    {stats.map((stat, index) => (
-                      <Col xs={12} sm={6} key={index}>
-                        <div className={styles.statItem}>
-                          <div className={styles.statIcon} style={{ color: stat.color }}>
-                            {stat.icon}
-                          </div>
-                          <div className={styles.statNumber}>
-                            {Object.values(counters)[index]}{stat.suffix}
-                          </div>
-                          <div className={styles.statLabel}>{stat.title}</div>
-                        </div>
-                      </Col>
-                    ))}
-                  </Row>
-                </div>
-
+               
                 <div className={styles.heroActions}>
                   <Button type="primary" size="large" className={styles.primaryBtn}>
                     <Link href="/services">Explore Our Services</Link>
@@ -374,7 +357,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Company Journey Timeline */}
+      {/* Company Journey Timeline
       <section className={`${styles.section} ${styles.timelineSection}`}>
         <div className="container">
           <div className={styles.sectionHeader}>
@@ -430,7 +413,7 @@ export default function AboutPage() {
             />
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Leadership Message */}
       <section className={`${styles.section} ${styles.leadershipSection}`}>
